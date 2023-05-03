@@ -1,8 +1,18 @@
 header nav img{
     width: 2em;
     height: 10em;
+    border-radius: 20em;
 }
 
 #carouselExampleAutoplaying img{
         height: 20em;
+}
+
+.card-group .card{
+    margin: 5em 2em 2em;
+    padding: 2em 0.8em 0.8em;
+}
+
+.card-group .card:hover{
+    opacity: 65%;
 }
