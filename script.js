@@ -1,4 +1,5 @@
-$(".btn accept").click(function(){
-    $(".cookie").hide();
- //Enter your code hear...
+$(document).ready(function(){
+    $("button").click(function(){
+        $(".cookie").fadeOut();
+    });
  });
